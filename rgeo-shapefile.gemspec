@@ -9,6 +9,14 @@ Gem::Specification.new do |spec|
   spec.authors = ["Daniel Azuma", "Tee Parham"]
   spec.email = ["dazuma@gmail.com", "parhameter@gmail.com"]
   spec.homepage = "http://github.com/rgeo/rgeo-shapefile"
+
+  spec.metadata = {
+    "bug_tracker_uri" => "http://github.com/rgeo/rgeo-shapefile/issues",
+    "changelog_uri" => "https://github.com/rgeo/rgeo-shapefile/blob/master/CHANGELOG.md",
+    "homepage_uri" => spec.homepage,
+    "source_code_uri" => spec.homepage
+  }
+
   spec.license = "BSD-3-Clause"
 
   spec.files = Dir["lib/**/*.rb", "*.md", "LICENSE.txt"]
